@@ -91,6 +91,7 @@ Prototipo de baja fidelidad, una serie de sketch que se utilizó para testear co
 ***
 # Desarrollo de interfaz
 ## Diagrama de flujo
+![sketch](Diagrama-de-flujo-pokemon.jpg)
 ***
 ## Propuesta de proyecto
 ***
