@@ -79,9 +79,19 @@ Testeo realizado a 4 posibles usuarios con el prototipo mínimo viable
 ***
 # Desarrollo del proyecto
 ## Wireframe
+**Primera parte**
+Los primeros acercamientos a la aplicación web se basan en el desplazamiento de la información que contendrá esta misma, además de los elementos que la componen.
+![sketch](sketch.jpg)
+
+Prototipo de baja fidelidad, una serie de sketch que se utilizó para testear como el usuario realiza el recorrido sobre la información contenida dentro de la aplicación, con el objetivo de sacar una serie de conclusiones e implementarlas en el siguiente testeo.
+![sketch](primerapantalla.jpg)
+![sketch](segundapantalla.jpg)
+![sketch](tercerapantalla.jpg)
+
 ***
 # Desarrollo de interfaz
 ## Diagrama de flujo
+![sketch](Diagrama-de-flujo-pokemon.jpg)
 ***
 ## Propuesta de proyecto
 ***
