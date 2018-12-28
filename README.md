@@ -81,17 +81,18 @@ Testeo realizado a 4 posibles usuarios con el prototipo mínimo viable
 ## Wireframe
 **Primera parte**
 Los primeros acercamientos a la aplicación web se basan en el desplazamiento de la información que contendrá esta misma, además de los elementos que la componen.
-![sketch](sketch.jpg)
+![sketch](https://raw.githubusercontent.com/camilaAstorgaBatarce/scl-2018-12-bc-core-data-lovers/master/sketch/sketch.jpg)
+
 
 Prototipo de baja fidelidad, una serie de sketch que se utilizó para testear como el usuario realiza el recorrido sobre la información contenida dentro de la aplicación, con el objetivo de sacar una serie de conclusiones e implementarlas en el siguiente testeo.
-![sketch](primerapantalla.jpg)
-![sketch](segundapantalla.jpg)
-![sketch](tercerapantalla.jpg)
+![sketch](https://raw.githubusercontent.com/camilaAstorgaBatarce/scl-2018-12-bc-core-data-lovers/master/sketch/primerapantalla.jpg)
+![sketch](https://raw.githubusercontent.com/camilaAstorgaBatarce/scl-2018-12-bc-core-data-lovers/master/sketch/segundapantalla.jpg)
+![sketch](https://raw.githubusercontent.com/camilaAstorgaBatarce/scl-2018-12-bc-core-data-lovers/master/sketch/tercerapantalla.jpg)
 
 ***
 # Desarrollo de interfaz
 ## Diagrama de flujo
-![sketch](Diagrama-de-flujo-pokemon.jpg)
+![sketch](https://raw.githubusercontent.com/camilaAstorgaBatarce/scl-2018-12-bc-core-data-lovers/master/sketch/Diagrama-de-flujo-pokemon.jpg)
 ***
 ## Propuesta de proyecto
 ***
