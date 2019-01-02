@@ -4,6 +4,7 @@ window.onload = function () {
     // filter buttons, 15 categories
     /*document.getElementById("grassButton").addEventListener("click", function(){
         document.getElementById("root").innerHTML = grassFilter();
+    });
     }); 
     document.getElementById("poisonButton").addEventListener("click", function(){
         document.getElementById("root").innerHTML = poisonFilter();
@@ -70,10 +71,12 @@ document.querySelectorAll(".enlace").forEach(function(button){
                 pokemonNamesFilter(grassPokemon);
                 break;
             case "Veneno":
+                document.getElementById("root").innerHTML = poisonFilter();
                 let poisonPokemon = poisonFilter();
                 pokemonNamesFilter(poisonPokemon)
                 break;
             case "Volador":
+                document.getElementById("root").innerHTML = flyingFilter();
                 let flyingPokemon = flyingFilter();
                 pokemonNamesFilter(flyingPokemon)
                 break;

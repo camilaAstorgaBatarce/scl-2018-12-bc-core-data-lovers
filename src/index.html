@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
+</head>
+<body>
     <header>
-      Guía de pokemones 
+        <div class="container-fluid banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="img/Logo.png" class="img-fluid logo-pokemon">
+                    </div>
+                    <div class="col-10 text-center">
+                        <h3 class="color-black">Guía de pokemones</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <main></main>
-    <input type="submit" value="Planta" id="grassButton" class="enlace"/>
-    <input type="submit" value="Veneno" id="poisonButton" class="enlace"/>
-    <input type="submit" value="Volador" id="flyingButton" class="enlace"/>
-    <input type="submit" value="Fuego" id="fireButton" class="enlace"/>
-    <input type="submit" value="Agua" id="waterButton" class="enlace"/>
-    <input type="submit" value="Bicho" id="bugButton" class="enlace"/>
-    <input type="submit" value="Normal" id="normalButton" class="enlace"/>
-    <input type="submit" value="Eléctrico" id="electricButton" class="enlace"/>
-    <input type="submit" value="Tierra" id="groundButton" class="enlace"/>
-    <input type="submit" value="Peleador" id="fightingButton" class="enlace"/>
-    <input type="submit" value="Psiquico" id="psychicButton" class="enlace"/>
-    <input type="submit" value="Roca" id="rockButton" class="enlace"/>
-    <input type="submit" value="Hielo" id="iceButton" class="enlace"/>
-    <input type="submit" value="Fantasma" id="ghostButton" class="enlace"/>
-    <input type="submit" value="Dragón" id="dragonButton" class="enlace"/>
-    
-    <div id="root"></div>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="categories">
+                        <h3 class="color-black">
+                            Tipos Elementales
+                        </h3>
+                        <input type="button" value="Planta" id="grassButton" class="enlace color-grass"/>
+                        <input type="button" value="Veneno" id="poisonButton" class="enlace color-poison"/>
+                        <input type="button" value="Volador" id="flyingButton" class="enlace color-flying"/>
+                        <input type="button" value="Fuego" id="fireButton" class="enlace color-fire"/>
+                        <input type="button" value="Agua" id="waterButton" class="enlace color-water"/>
+                        <input type="button" value="Bicho" id="bugButton" class="enlace color-bug"/>
+                        <input type="button" value="Normal" id="normalButton" class="enlace color-normal"/>
+                        <input type="button" value="Eléctrico" id="electricButton" class="enlace color-electric"/>
+                        <input type="button" value="Tierra" id="groundButton" class="enlace color-ground"/>
+                        <input type="button" value="Peleador" id="fightingButton" class="enlace color-fighting"/>
+                        <input type="button" value="Psiquico" id="psychicButton" class="enlace color-psychic"/>
+                        <input type="button" value="Roca" id="rockButton" class="enlace color-rock"/>
+                        <input type="button" value="Hielo" id="iceButton" class="enlace color-ice"/>
+                        <input type="button" value="Fantasma" id="ghostButton" class="enlace color-ghost"/>
+                        <input type="button" value="Dragón" id="dragonButton" class="enlace color-dragon"/>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div id="root" class="text-center"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
 
+    </footer>
+
+    <script src="bootstrap.min.js"></script>
     <script src="./data/pokemon/pokemon.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
-  </body>
+
+</body>
 </html>
