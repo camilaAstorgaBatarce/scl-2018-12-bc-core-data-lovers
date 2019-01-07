@@ -13,6 +13,7 @@ function globalFilter (condition) {
         let filter = window.filterData(data, condition);
         for (let i = 0; i < filter.length; i++){
             document.getElementById("root").innerHTML += pokemonBox(filter[i].name, filter[i].num, filter[i].type, filter[i].img);
+            document.getElementById("name-type").innerHTML = condition;
         }
     })
 }
