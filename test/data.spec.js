@@ -1,12 +1,26 @@
+global.window = global;
+global.chai = require('chai');
+global.expect = require("chai").expect;
+global.assert = require("chai").assert;
+require('../src/data/pokemon/pokemon.js')
 require('../src/data.js');
 
+//const assert = require("assert");
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe('window.pokemons.filterData', () => {
+  it('debería ser un objeto', () => {
+    window.assert.equal(typeof window.pokemons.filterData, 'function' );
   });
+})
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+describe('window.pokemons.sortData', () => {
+  it('debería ser una función', () => {
+    window.assert.equal(typeof window.pokemons.sortData, 'function' );
   });
-});
+})
+
+describe('window.pokemons', () => {
+  it('debería ser un objeto', () => {
+    window.assert.equal(typeof window.pokemons, 'object' );
+  });
+})
