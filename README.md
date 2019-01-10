@@ -1,4 +1,4 @@
-![Banner](banner.jpg)
+![Sketch](banner.jpg)
 
 # Guía de pokemones
 
