@@ -13,12 +13,12 @@
     "eslint": "^5.9.0",
     "eslint-plugin-jest": "^22.1.2",
     "fetch": "^1.1.0",
-    "htmlhint": "^0.10.1",
     "jest": "^23.6.0",
     "node": "^11.6.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "htmlhint": "^0.10.1",
     "mocha": "^5.2.0"
   },
   "jest": {

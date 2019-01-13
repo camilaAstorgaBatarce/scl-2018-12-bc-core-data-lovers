@@ -8,9 +8,14 @@ require('../src/data.js');
 describe('window.pokemons', () => {
   it('debería ser un objeto', () => {
     window.assert.equal(typeof window.pokemons, 'object' );
-  });
+  })
 })
 
+describe('window.pokemons.computeStats', () => {
+  it('debería ser una función', () => {
+    window.assert.equal(typeof window.pokemons.computeStats, 'function');
+  })
+})
 describe('window.pokemons.filterByType', () => {
   it('debería ser una función', () => {
     window.assert.equal(typeof window.pokemons.filterByType, 'function' );
@@ -18,13 +23,13 @@ describe('window.pokemons.filterByType', () => {
 
 describe('window.pokemons.filterByType', () => {
   it('debería devolver "Bulbasaur" al hacer click en "Poison', () => {
-    assert.equal(window.pokemons.filterByType(window.POKEMON.pokemon, "Poison")[0].name, "Bulbasaur")
+    window.assert.equal(window.pokemons.filterByType(window.POKEMON.pokemon, "Poison")[0].name, "Bulbasaur")
   })
 })
 
 describe('window.pokemons.filterByType', () => {
   it('debería devolver "Bulbasaur" al hacer click en "Grass', () => {
-    assert.equal(window.pokemons.filterByType(window.POKEMON.pokemon, "Grass")[0].name, "Bulbasaur")
+    window.assert.equal(window.pokemons.filterByType(window.POKEMON.pokemon, "Grass")[0].name, "Bulbasaur")
   })
 })
 });
@@ -36,11 +41,11 @@ describe('window.pokemons.sortData', () => {
 
   it ('deberia devolver los pokemones ordenados de la A a la Z', () =>{
     let orderAz = window.pokemons.sortData(window.POKEMON.pokemon,"name", true)
-    assert.deepEqual([orderAz[0].name, orderAz[1].name, orderAz[2].name],["Abra", "Aerodactyl", "Alakazam"])  
+    window.assert.deepEqual([orderAz[0].name, orderAz[1].name, orderAz[2].name],["Abra", "Aerodactyl", "Alakazam"])  
   }) 
 
   it ('deberia devolver los pokemones ordenados de la Z a la A', () =>{
     let orderAz = window.pokemons.sortData(window.POKEMON.pokemon,"name", false)
-    assert.deepEqual([orderAz[0].name, orderAz[1].name, orderAz[2].name],["Zubat", "Zapdos", "Wigglytuff"])  
+    window.assert.deepEqual([orderAz[0].name, orderAz[1].name, orderAz[2].name],["Zubat", "Zapdos", "Wigglytuff"])  
   }) 
 });
